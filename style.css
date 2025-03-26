@@ -1,0 +1,68 @@
+/* Estilizações gerais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    height: 100vh;
+}
+
+
+
+
+/* Estilização da paarte de cima da página */
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+
+    height: 300px;
+    width: 100%;
+    padding-block: 50px;
+
+    background-color: #feece0;
+}
+
+.pamonha {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+
+
+
+/* Estilização da parte de baixo da página */
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #9B6647;
+    color: white;
+
+    gap: 100px;
+
+    width: 100%;
+    padding-block: 80px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+}
