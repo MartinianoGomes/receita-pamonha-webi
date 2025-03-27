@@ -25,17 +25,46 @@ main {
 /* Estilização da paarte de cima da página */
 .top {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 50vh;
+    width: 100%;
+
+    background-color: #feece0;
+}
+
+.top-inside {
+    display: flex;
     align-items: center;
     justify-content: center;
 
     gap: 50px;
 
     height: 50vh;
-    width: 100%;
+    width: 60%;
     padding-block: 50px;
+}
 
-    background-color: #feece0;
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.buttons button {
+    border: none;
+    cursor: pointer;
 }
 
 .pamonha {
@@ -50,23 +79,34 @@ main {
 /* Estilização da parte de baixo da página */
 .bottom {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 
     background-color: #9B6647;
     color: white;
 
-    gap: 100px;
+    width: 100%;
+}
+
+.bottom-inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
 
     height: 50vh;
-    width: 100%;
-    padding-block: 80px;
+    width: 60%;
+}
+
+ul, ol {
+    list-style-position: inside;
 }
 
 .colgeral {
     display: flex;
     flex-direction: column;
+
     gap: 20px;
 }
 
@@ -74,6 +114,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+
     gap: 10px;
 }
 
